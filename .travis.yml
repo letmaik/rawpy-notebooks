@@ -1,0 +1,13 @@
+language: python
+python: "3.5"
+
+env:
+  global:
+    - NBCONVERT="jupyter nbconvert --to=html --ExecutePreprocessor.enabled=True"
+
+install:
+  - travis_retry sudo apt-get install libraw-dev
+  - pip install numpy rawpy pillow matplotlib jupyter
+
+script: 
+  - $NBCONVERT simple-convert/simple-convert.ipynb
