@@ -2,4 +2,4 @@
 
 A collection of IPython notebooks using rawpy.
 
-- [Converting a RAW file to a standard image format](simple-convert/simple-convert.ipynb)
+- [Converting a RAW file to a standard image format](http://nbviewer.jupyter.org/github/neothemachine/rawpy-notebooks/blob/master/simple-convert/simple-convert.ipynb)
