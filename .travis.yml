@@ -7,7 +7,8 @@ env:
 
 install:
   - travis_retry sudo apt-get install libraw-dev
-  - pip install numpy rawpy pillow matplotlib jupyter
+  - pip install scikit-image rawpy pillow matplotlib jupyter
 
 script: 
   - $NBCONVERT simple-convert/simple-convert.ipynb
+  - $NBCONVERT bad-pixel-repair/bad-pixel-repair.ipynb
