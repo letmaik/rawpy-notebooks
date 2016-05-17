@@ -1,4 +1,5 @@
 /.project
 *.jpg
 *.tiff
+*.html
 .ipynb_checkpoints

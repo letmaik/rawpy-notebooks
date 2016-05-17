@@ -7,7 +7,9 @@ env:
 
 install:
   - travis_retry sudo apt-get install libraw-dev
-  - pip install scikit-image rawpy pillow matplotlib jupyter
+  # update pip to make use of manylinux1 wheels
+  - pip install --upgrade pip
+  - pip install numpy scipy scikit-image rawpy pillow matplotlib jupyter
 
 script: 
   - $NBCONVERT simple-convert/simple-convert.ipynb
