@@ -1,2 +1,3 @@
 RAW_NIKON_D3X.NEF - https://www.rawsamples.ch/index.php/en/nikon
 ISS*.nef - http://eol.jsc.nasa.gov
+_DSC3254.dng, CN005-04.dng - https://github.com/neothemachine/rawpy/issues/12#issuecomment-218283469
