@@ -14,3 +14,4 @@ install:
 script: 
   - $NBCONVERT simple-convert/simple-convert.ipynb
   - $NBCONVERT bad-pixel-repair/bad-pixel-repair.ipynb
+  - $NBCONVERT colour-negative/colour-negative.ipynb
