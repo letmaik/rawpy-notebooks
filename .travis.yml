@@ -1,14 +1,12 @@
 language: python
-python: "3.5"
+python: "3.6"
+dist: trusty
 
 env:
   global:
     - NBCONVERT="jupyter nbconvert --to=html --ExecutePreprocessor.enabled=True"
 
 install:
-  - travis_retry sudo apt-get install libraw-dev
-  # update pip to make use of manylinux1 wheels
-  - pip install --upgrade pip
   - pip install numpy scipy scikit-image rawpy pillow matplotlib jupyter
 
 script: 
