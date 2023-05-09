@@ -1,4 +1,4 @@
-# rawpy-notebooks [![Build Status](https://travis-ci.org/letmaik/rawpy-notebooks.svg?branch=master)](https://travis-ci.org/letmaik/rawpy-notebooks)
+# rawpy-notebooks
 
 A collection of Jupyter/IPython notebooks using [rawpy](https://github.com/letmaik/rawpy).
 
